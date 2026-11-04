@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CampusConnect – Building connections. Inspiring kindness. Growing together.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#home" aria-label="CampusConnect home"><span class="logo" aria-hidden="true">cc</span>CampusConnect</a>
+  <button class="icon" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" aria-label="Main"></nav>
+  <button class="icon" id="themeBtn" aria-label="Toggle dark mode">Theme</button>
+</header>
+<main id="app" tabindex="-1"></main>
+<footer>
+  <p>CampusConnect is a front-end prototype. All people, statistics and messages are sample data stored only in your browser. Nothing is sent to anyone.</p>
+  <p>CampusConnect is not a replacement for professional mental health support.</p>
+</footer>
+<dialog id="modal" aria-labelledby="mTitle"><div id="mBody"></div><button class="btn ghost" id="mClose">Close</button></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
